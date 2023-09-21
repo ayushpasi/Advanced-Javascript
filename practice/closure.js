@@ -1,11 +1,9 @@
 function x() {
-  let a = 10;
-
+  let a = 9;
   function y() {
     console.log(a);
   }
-
-  y();
+  return y;
 }
-
-x();
+let z = x();
+z();
